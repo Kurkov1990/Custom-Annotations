@@ -53,14 +53,14 @@ public class AppController {
         int randomNumber1 = appModel.getRandomNumber();
         int randomNumber2 = appModel.getRandomNumber();
         String results = """
-        Average   : %.2f
-        Min       : %d
-        Max       : %d
-        Sum       : %d
-        Reversed  : %s
-        Contains %d: %b
-        Contains %d: %b
-        """.formatted(
+                Average   : %.2f
+                Min       : %d
+                Max       : %d
+                Sum       : %d
+                Reversed  : %s
+                Contains %d: %b
+                Contains %d: %b
+                """.formatted(
                 arrayUtils.average(array),
                 arrayUtils.min(array),
                 arrayUtils.max(array),
